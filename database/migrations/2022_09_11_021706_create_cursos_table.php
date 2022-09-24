@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id("curso_id");
             $table->bigInteger("dir_curso");
             $table->bigInteger("cod_horario");
-            $table->int("anio_lect");
+            $table->integer("anio_lect");
             $table->timestamps();
         });
     }

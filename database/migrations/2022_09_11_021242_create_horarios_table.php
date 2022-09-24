@@ -21,7 +21,7 @@ return new class extends Migration
             $table->bigInteger("cod_mat_4ta");
             $table->bigInteger("cod_mat_5ta");
             $table->bigInteger("cod_mat_6ta");
-            $table->int("anio_lect");
+            $table->integer("anio_lect");
             $table->timestamps();
         });
     }
